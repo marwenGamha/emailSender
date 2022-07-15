@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "emailSender"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-14ahgq495nw6d"
+s3_prefix = "emailSender"
+region = "eu-west-3"
+confirm_changeset = true
+capabilities = "CAPABILITY_NAMED_IAM"
+image_repositories = []
